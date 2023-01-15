@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+	<meta name="mailru-verification" content="bbf76081e19c66dd" />
+	<meta name="yandex-verification" content="39f50821568d5453" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.55, minimum-scale=0.5" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/styles/index.css?new=19">
+	<link rel="stylesheet" type="text/css" href="./style/style.css">
+	<title>
+		Главная - Lot-of-Shoes
+	</title>
+	<script type="text/javascript" src="./script/jquery-3.3.1.js">
+	</script>
+
+</head>
+  <body>
+	<div class="page">
+	  <header class="page__header">
+        <div class="header">
+            <div class="header__main">
+             <div class="logo">
+			            <a class="logo__link" href="/">
+                            <img src="http://anka.totum.online/fls/406_20_kartinka_ili_fayl.png" width="200px"/>
+                        </a>
+                 </div>
+
+                <nav class="header__main-nav">
+                    <ul class="top-main-nav" style="margin-bottom: 14px;">
+                        
+                    </ul>
+                    <ul class="bottom-main-nav">
+                        <li class="bottom-main-nav__item">
+                            <a class="bottom-main-nav__link" href="/">
+                                <span class="underline">Главная</span>
+                            </a>
+                        </li>
+					  	<li class="bottom-main-nav__item">
+                            <a class="bottom-main-nav__link" href="/catalog">
+                                <span class="underline">Каталог</span>
+                            </a>
+                        </li>
+					  	
+                        <li class="bottom-main-nav__item">
+                            <a class="bottom-main-nav__link" href="/delivery">
+                                <span class="underline">Доставка</span>
+                            </a>
+                        </li>
+					  
+					  <li class="bottom-main-nav__item">
+                            <a class="bottom-main-nav__link" href="/partners">
+                                <span class="underline">Условия сотрудничества</span>
+                            </a>
+                       </li>
+					  
+                    </ul>
+				  
+                </nav>
+			  <!--Корзина-->
+              <!--Кнопка очистить корзину и подсчет товаров-->  
+		    			<div id="cart-container">
+						  	<div id="cart-name">
+								Ваша корзина
+						  	</div>
+		      				<div id="cart">
+		        				<i class="fa fa-shopping-cart fa-2x openCloseCart" aria-hidden="true">
+							  		<span id="itemCount"></span>
+							  	</i>
+		        			</div>
+		      					
+		    				</div>
+		  
+							<!--Корзина-->
+		  					<div id="shoppingCart">
+		    					<div id="cartItemsContainer">
+		      					
+							<!--Заголовок-->								
+									<h2>Ваша корзина</h2>
+									<i class="fa fa-times fa-3x openCloseCart"></i>
+									<div id="emptyCart">
+									<button id="emptyCart">Убрать все</button>
+									</div>
+		      						<div id="cartItems">
+												<div>
+													<button id="sendCartItems">Отправить заказ</button> 
+												</div>
+											</div>
+							<!--Подсчет товаров товаров-->
+		      						<span id="cartTotal"></span>
+								  	<form action="#" method="post" name="feedback">
+                						<fieldset id="clientInformation">
+                    					<label for="name">Ваше имя:</label><br>
+                    					<input type="text" placeholder="Ваше имя" id="name"><span>Имя может содержать только буквы</span><br>
+                   						<label for="phone">Ваш номер телефона:</label><br>
+									  <input type="text" placeholder="+7(000)000-0000 " id="phone">
+                    					<span>Введите телефон в формате +7(000)000-0000</span><br>
+
+                    					<label for="email">Ваш E-mail:</label><br>
+                    					<input type="email" placeholder="example@example.ru " id="email">
+                    					<span>E-mail в формате mymail@mail.ru</span><br>
+
+                    					<textarea name="text" id="message" cols="50" rows="10" placeholder="Ваше сообщение: "></textarea>
+                    					<br>
+	
+                    					<input type="submit" id="send-Form">
+                    					<input type="reset" id="reset">
+                						</fieldset>
+            						</form>								  
+								</div>
+								<div>
+									<button id="sendCartItems">Отправить заказ</button> 
+								</div>
+							</div>
+							
+			  
+                
+            </div>
+        </div>
+    </header><div class="title">
+            <h2 class="title__group icon target">Почему это будет эффективно для вас?</h2>
+				</div>
+
+<div id="categorii" style="float: left; height: 700px; width: 200px; font-size: 22px; font-family: 'Oswald', sans-serif;">
+  <li>
+	<a href="#" data-id="13">Балетки</a>
+</li><li>
+	<a href="#" data-id="4">Босоножки</a>
+</li><li>
+	<a href="#" data-id="5">Ботильоны</a>
+</li><li>
+	<a href="#" data-id="6">Ботинки</a>
+</li><li>
+	<a href="#" data-id="12">Другая обувь</a>
+</li><li>
+	<a href="#" data-id="1">Кроссовки и кеды</a>
+</li><li>
+	<a href="#" data-id="7">Мокасины</a>
+</li><li>
+	<a href="#" data-id="8">Резиновая обувь</a>
+</li><li>
+	<a href="#" data-id="9">Сандалии</a>
+</li><li>
+	<a href="#" data-id="10">Сапоги</a>
+</li><li>
+	<a href="#" data-id="2">Туфли</a>
+</li>
+</div>
+
+<div id="tovari" style="display: flex; flex-wrap: wrap" class="category-3">
+  <div data-category="9" class="tovar">
+  	<div class="itemDetails">
+	  	<!--Name-->
+	  	<div class="itemName" style="padding-bottom: 10px;">Сандалии 09/5</div>
+  		<!--Img-->
+	  	<div style="height: 300px; overflow:hidden">
+	  	<img src="http://anka.totum.online/fls/420_5_kartinka.jpg" style="width: 240px"/>
+    	</div>
+	  	<!--Price-->
+    	<div class="price-container" style="padding-top: 10px;padding-bottom: 10px;">Цена: <span class="price" style="font-size: 20px;">1000р.</span></div>
+    	<!--Sizes-->
+	  	<div>Размерный ряд: <span>36/37/38/39/40/41р.</span></div>
+  		<!--Description-->
+	  	<div style="display: grid; grid-template-columns: 100px 1fr; padding: 10px; padding-left: 0px;">
+	  		<div style="font-size: 12px;">
+	  		Категория: <span>Сандалии</span>, <span>Женские</span>
+    		</div>	  		
+		</div>
+	</div>
+		<!--Buy button-->
+		<button class="add" style="font-size: 14px; backround-color: blue; width: 100px;">
+		Купить
+	  	</button> 	
+	
+</div><div data-category="8" class="tovar">
+  	<div class="itemDetails">
+	  	<!--Name-->
+	  	<div class="itemName" style="padding-bottom: 10px;">Резиновая обувь 08/41</div>
+  		<!--Img-->
+	  	<div style="height: 300px; overflow:hidden">
+	  	<img src="http://anka.totum.online/fls/420_41_kartinka.jpg" style="width: 240px"/>
+    	</div>
+	  	<!--Price-->
+    	<div class="price-container"style="padding-top: 10px;padding-bottom: 10px;">Цена: <span class="price" style="font-size: 20px;">1100р.</span></div>
+    	<!--Sizes-->
+	  	<div>Размерный ряд: <span>36/37/38/39/40/41р.</span></div>
+  		<!--Description-->
+	  	<div style="display: grid; grid-template-columns: 100px 1fr; padding: 10px; padding-left: 0px;">
+	  		<div style="font-size: 12px;">
+	  		Категория: <span>Резиновая обувь</span>, <span>Женские</span>
+    		</div>	  		
+		</div>
+	</div>
+		<!--Buy button-->
+		<button class="add" style="font-size: 14px; backround-color: blue; width: 100px;">
+		Купить
+	  	</button> 	
+	
+</div><div data-category="1" class="tovar">
+  	<div class="itemDetails">
+	  	<!--Name-->
+	  	<div class="itemName" style="padding-bottom: 10px;">Кроссовки и кеды 01/7</div>
+  		<!--Img-->
+	  	<div style="height: 300px; overflow:hidden">
+	  	<img src="http://anka.totum.online/fls/420_7_kartinka.jpg" style="width: 240px"/>
+    	</div>
+	  	<!--Price-->
+    	<div class="price-container"style="padding-top: 10px;padding-bottom: 10px;">Цена: <span class="price" style="font-size: 20px;">1050р.</span></div>
+    	<!--Sizes-->
+	  	<div>Размерный ряд: <span>36/37/38/38/39/39/40/41р.</span></div>
+  		<!--Description-->
+	  	<div style="display: grid; grid-template-columns: 100px 1fr; padding: 10px; padding-left: 0px;">
+	  		<div style="font-size: 12px;">
+	  		Категория: <span>Кроссовки и кеды</span>, <span>Женские</span>
+    		</div>	  		
+		</div>
+	</div>
+		<!--Buy button-->
+		<button class="add" style="font-size: 14px; backround-color: blue; width: 100px;">
+		Купить
+	  	</button> 	
+	
+</div><div data-category="1" class="tovar">
+  	<div class="itemDetails">
+	  	<!--Name-->
+	  	<div class="itemName" style="padding-bottom: 10px;">Кроссовки и кеды 01/67</div>
+  		<!--Img-->
+	  	<div style="height: 300px; overflow:hidden">
+	  	<img src="http://anka.totum.online/fls/420_67_kartinka.jpg" style="width: 240px"/>
+    	</div>
+	  	<!--Price-->
+    	<div class="price-container"style="padding-top: 10px;padding-bottom: 10px;">Цена: <span class="price" style="font-size: 20px;">1200р.</span></div>
+    	<!--Sizes-->
+	  	<div>Размерный ряд: <span>41/42/43/43/44/44/45/46р.</span></div>
+  		<!--Description-->
+	  	<div style="display: grid; grid-template-columns: 100px 1fr; padding: 10px; padding-left: 0px;">
+	  		<div style="font-size: 12px;">
+	  		Категория: <span>Кроссовки и кеды</span>, <span>Мужские</span>
+    		</div>	  		
+		</div>
+	</div>
+		<!--Buy button-->
+		<button class="add" style="font-size: 14px; backround-color: blue; width: 100px;">
+		Купить
+	  	</button> 	
+	
+</div>
+</div>
+<br style="clear: both"><div class="groups"><p>
+  Текст про обувь какая она классная
+</p><p>
+  Второй абзац
+</p></div><footer class="page-footer">
+			<div class="footer">
+				<div class="footer__inner" style="padding-top: 10px; display: flex; justify-content: space-between;">
+                   <div class="footer__links">
+					 <li class="bottom-main-nav__item">
+                            <a class="bottom-main-nav__link" href="/contacts" >
+                                <span class="underline" style="font-size: 26px; font-family: 'Oswald', sans-serif;">КОНТАКТЫ</span>
+                            </a>
+                        </li>
+				  </div>
+                  
+					<div class="footer__contacts">
+                    
+						<div class="copyright">
+						   <span style="font-size: 20px;">Lot-Of-Shoes</span></div>
+						+7 (495)телефон, <br><em>commerce@lot-of-shoes.ru</em>
+					</div>
+					
+				</div>
+			</div>
+		</footer>
+	</div>
+  </body>
+<script src="./script/script.js"></script>
+</html>
